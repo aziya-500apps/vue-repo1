@@ -3,8 +3,7 @@
     <h1>Details</h1>
     <center><table>
         <thead>
-            <tr>
-                
+            <tr> 
                 <th>Email</th>
                 <th>Country</th>
             </tr>
