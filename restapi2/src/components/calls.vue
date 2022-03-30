@@ -8,6 +8,30 @@
 <b-button @click="getData()">Click Me!</b-button>
 <div>
 {{ searchData }}
+
+<table border=2px align="center">
+    <thead>
+        <tr>
+            <th>TrainName</th>
+            <th>TrainNumber</th>
+            <th>TrainFrom</th>
+            <th>TrainTo</th>
+            <th>date</th>
+        </tr>
+    </thead>
+<tbody>
+    <tr v-for="user in users" :key="user.id">
+        <td>{{ user.TrainName }}</td>
+        <td>{{ user.TrainNumber }}</td>
+        <td>{{ user.TrainFrom }}</td>
+        <td>{{ user.TrainTo }}</td>
+        <td>{{ user.Date }}</td>
+    </tr>
+
+
+
+</tbody>
+</table>
 </div>
 </div>
 </template>
