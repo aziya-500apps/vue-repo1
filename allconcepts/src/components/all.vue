@@ -13,6 +13,7 @@
 </div>
 </template>
 <script>
+
 export default{
     name:"EseConcept",
     data(){
@@ -23,6 +24,11 @@ export default{
     },
     
     methods: {
+       /* scrapData(url){
+            var response = await axios.get(url)
+            
+            
+        },*/
         f1(){
              this.name1="Fortune 500apps"
              return this.name1;

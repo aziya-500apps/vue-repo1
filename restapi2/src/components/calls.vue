@@ -16,7 +16,6 @@
             <th>TrainNumber</th>
             <th>TrainFrom</th>
             <th>TrainTo</th>
-            
         </tr>
     </thead>
 <tbody>

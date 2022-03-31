@@ -1,5 +1,27 @@
 {
   "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.10",
+    "pretty": "^2.0.0",
     "vue-router": "^4.0.14"
-  }
+  },
+  "name": "vue-repo1",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aziya-500apps/vue-repo1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aziya-500apps/vue-repo1/issues"
+  },
+  "homepage": "https://github.com/aziya-500apps/vue-repo1#readme"
 }
